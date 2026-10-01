@@ -1,0 +1,437 @@
+{
+  "id": "1468630547021693083",
+  "settings": {
+    "exemptRoles": [
+      "1554798452855283774",
+      "1536837158168563802",
+      "1555086804699451392",
+      "1554203402190332047",
+      "1554799357327446107",
+      "1485656078082375711",
+      "1512985925565808662",
+      "1536837137763278909",
+      "1526800244333871186",
+      "1555097534198972459",
+      "1485661849243353190",
+      "1526800039324815423",
+      "1545544731558412396"
+    ],
+    "punishments": {
+      "warn": {
+        "enabled": true,
+        "count": 3,
+        "action": "timeout",
+        "duration": 600000
+      },
+      "timeout": {
+        "enabled": true,
+        "duration": 300000
+      },
+      "kick": {
+        "enabled": true
+      },
+      "ban": {
+        "enabled": true
+      },
+      "enabled": false
+    },
+    "antiRaid": {
+      "enabled": true,
+      "maxJoins": 5,
+      "timeWindow": 10000,
+      "punishment": "ban"
+    },
+    "antiSpam": {
+      "enabled": true,
+      "maxMessages": 6,
+      "timeWindow": 3000,
+      "punishment": "warn",
+      "duration": 120
+    },
+    "antiLink": {
+      "enabled": true,
+      "whitelistedDomains": [],
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiBot": {
+      "enabled": false,
+      "punishment": "kick"
+    },
+    "antiSelfbot": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiWebhook": {
+      "enabled": true,
+      "punishment": "ban"
+    },
+    "antiNickname": {
+      "enabled": true,
+      "punishment": "timeout",
+      "duration": 600000
+    },
+    "antiChannelDelete": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiChannelCreate": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiRoleDelete": {
+      "enabled": true,
+      "punishment": "ban"
+    },
+    "antiRoleCreate": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiBan": {
+      "enabled": false
+    },
+    "antiKick": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiPrune": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiEmojiDelete": {
+      "enabled": false,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiEmojiCreate": {
+      "enabled": false,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiStickerDelete": {
+      "enabled": false,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiStickerCreate": {
+      "enabled": false,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiIntegration": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiVanity": {
+      "enabled": false,
+      "punishment": "ban"
+    },
+    "antiAlts": {
+      "enabled": false,
+      "maxAge": 7,
+      "punishment": "kick"
+    },
+    "antiToxic": {
+      "enabled": true,
+      "words": [],
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiCapslock": {
+      "enabled": false,
+      "minLength": 10,
+      "capPercent": 70,
+      "punishment": "timeout",
+      "duration": 60000
+    },
+    "antiMassMention": {
+      "enabled": false,
+      "maxMentions": 5,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiFlood": {
+      "enabled": true,
+      "maxRepeats": 3,
+      "timeWindow": 5000,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiInvite": {
+      "enabled": false,
+      "whitelistedGuilds": [],
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiGhostPing": {
+      "enabled": false,
+      "punishment": "timeout",
+      "duration": 300000
+    },
+    "antiMassBan": {
+      "enabled": false,
+      "maxBans": 3,
+      "timeWindow": 5000,
+      "punishment": "ban"
+    },
+    "antiMassKick": {
+      "enabled": true,
+      "maxKicks": 1,
+      "timeWindow": 5000,
+      "punishment": "ban"
+    },
+    "antiPermissionGuard": {
+      "enabled": true,
+      "punishment": "ban"
+    }
+  },
+  "logs": [
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840406570
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840403130
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840399610
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840388274
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840371819
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840365178
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840360978
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790840356154
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiSpam enabled by HAVX",
+      "details": null,
+      "timestamp": 1790840244898
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Settings updated for antiSpam by HAVX",
+      "details": null,
+      "timestamp": 1790840241274
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiNickname enabled by HAVX",
+      "details": null,
+      "timestamp": 1790840190116
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiMassKick enabled by HAVX",
+      "details": null,
+      "timestamp": 1790839815569
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Settings updated for antiMassKick by HAVX",
+      "details": null,
+      "timestamp": 1790839814241
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790839798201
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790839791834
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790833739385
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790833729483
+    },
+    {
+      "type": "antiLink",
+      "userId": "system",
+      "action": "⚠ Link blocked from f1saz: discord.com",
+      "details": null,
+      "timestamp": 1790833684377
+    },
+    {
+      "type": "punishment",
+      "userId": "system",
+      "action": "⚠ Cannot timeout 1067394330052005898 - insufficient permissions",
+      "details": null,
+      "timestamp": 1790833684376
+    },
+    {
+      "type": "antiFlood",
+      "userId": "1067394330052005898",
+      "action": {
+        "icon": "🌊",
+        "userTag": "f1saz",
+        "description": "f1saz flooding in #📤・𝗦𝘆𝘀𝘁𝗲𝗺",
+        "severity": "warning"
+      },
+      "timestamp": 1790833683976
+    },
+    {
+      "type": "antiToxic",
+      "userId": "1067394330052005898",
+      "action": {
+        "icon": "☣️",
+        "userTag": "f1saz",
+        "description": "f1saz sent inappropriate message in #📤・𝗦𝘆𝘀𝘁𝗲𝗺",
+        "severity": "warning"
+      },
+      "timestamp": 1790833683974
+    },
+    {
+      "type": "antiLink",
+      "userId": "1067394330052005898",
+      "action": {
+        "icon": "🔗",
+        "userTag": "f1saz",
+        "description": "f1saz sent a link in #📤・𝗦𝘆𝘀𝘁𝗲𝗺",
+        "severity": "warning"
+      },
+      "timestamp": 1790833683971
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiRaid enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832957642
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiLink enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832956586
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiWebhook enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832953715
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790832948978
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "Exempt roles updated by HAVX",
+      "details": null,
+      "timestamp": 1790832942794
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiPermissionGuard enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832933607
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiFlood enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832924155
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiToxic enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832922171
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "antiRoleDelete enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832914155
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "all disabled by HAVX",
+      "details": null,
+      "timestamp": 1790832911315
+    },
+    {
+      "type": "dashboard",
+      "userId": "system",
+      "action": "all enabled by HAVX",
+      "details": null,
+      "timestamp": 1790832904003
+    }
+  ],
+  "backup": {
+    "channels": [],
+    "roles": []
+  }
+}
